@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f172a;
+  z-index: 1000;
+}
+
+.logo {
+  color: #38bdf8;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  margin-top: 80px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.subtitle {
+  color: #38bdf8;
+}
+
+.desc {
+  color: #cbd5f5;
+}
+
+/* BUTTONS */
+.buttons a {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.buttons a:hover {
+  background: #0ea5e9;
+}
+
+/* PROFILE */
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 10%;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skills span {
+  background: #1e293b;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+/* PROJECT GRID */
+.project-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.project-buttons a {
+  margin-right: 10px;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* ACHIEVEMENTS */
+.achievements {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements li {
+  margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+}
